@@ -3,6 +3,7 @@ import 'widgets/side_bar.dart';
 import 'pages/dashboard_page.dart';
 import 'pages/users_page.dart';
 import 'pages/setting_page.dart';
+import 'pages/ble_scan_page.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -18,6 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
     DashboardPage(),
     UsersPage(),
     SettingPage(),
+    BleScanPage(),
   ];
 
   @override
